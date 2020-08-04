@@ -38,7 +38,7 @@ gulp.task("markup", function () {
     )
     .pipe(concat("index.html"))
     .pipe(gulp.dest(paths.public.public))
-    .pipe(notify("HTML #done"));
+    // .pipe(notify("HTML #done"));
 });
 
 // STYLES TASK
