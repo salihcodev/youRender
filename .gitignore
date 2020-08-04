@@ -1,6 +1,8 @@
-#depindancies:
+#Depindancies:
 /node_modules
 
+# Production
+/public
 
-#others:
-.viscode
+#Others:
+/.vscode
