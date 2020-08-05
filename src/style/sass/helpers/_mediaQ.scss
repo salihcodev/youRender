@@ -1,0 +1,79 @@
+/*=*=*==*=*=*=*
+	VERSION       		:  3.1,
+	CODED BY      		:  AHMED ALI SALIH,
+	MY WORK EMAIL 		: Ahmedsalihdev@gmail.com,
+	MY PORTFOLIO			: https://ahmedsalih.netlify.com
+*=*=*==*=*=*=*/
+
+/* START MEDIA QUERY PART */
+
+// MEDIA BREAKPOINTS VARS.
+$extra_small_point: 575.98px;
+$small_point: 767.98px;
+$medium_small_point: 991.98px;
+$large_small_point: 1199.98px;
+$extra_large_small_point: 1200px;
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: $extra_small_point) {
+  nav.navbar {
+    .collapse.navbar-collapse {
+      a.login-link {
+        width: 100%;
+        margin-top: 30px;
+
+        button.login {
+          margin-left: 0;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: $extra_small_point) and (max-width: $small_point) {
+  nav.navbar {
+    .collapse.navbar-collapse {
+      ul.navbar-nav {
+        align-items: flex-start;
+      }
+
+      button.login {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: $small_point) and (max-width: $medium_small_point) {
+  nav.navbar {
+    .collapse.navbar-collapse {
+      ul.navbar-nav {
+        align-items: flex-start;
+      }
+
+      button.login {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: $medium_small_point) and (max-width: $large_small_point) {
+  // nav.navbar {
+  //   .collapse.navbar-collapse {
+  //     ul.navbar-nav {
+  //       align-items: flex-start;
+  //     }
+  //   }
+  // }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: $extra_large_small_point) {
+}
+
+/* END MEDIA QUERY PART */

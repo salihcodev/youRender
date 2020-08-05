@@ -1,0 +1,65 @@
+// IMPORTS:
+@import "../helpers/vars";
+
+nav.navbar {
+  padding-left: 10px;
+  padding-right: 10px;
+
+  a.navbar-brand {
+    .logo-container {
+      background-image: url("../imgs/nav/app-logo.svg");
+      width: 100px;
+      height: 100px;
+      background-size: cover;
+    }
+  }
+
+  button.navbar-toggler {
+    width: 50px;
+    border: none;
+
+    div.bars-container {
+      width: 100%;
+
+      span.toggler-bar {
+        background: #333;
+        width: 100%;
+        height: 2px;
+        display: block;
+        margin-bottom: 4px;
+        margin-top: 4px;
+      }
+    }
+  }
+  .collapse.navbar-collapse {
+    justify-content: flex-end;
+
+    ul.navbar-nav {
+      align-items: center;
+
+      li {
+        &::first-letter {
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    button.login {
+      margin-left: 30px;
+      font-size: 13px;
+      height: 33px;
+      font-weight: bolder;
+      border: 1px solid $c-gray-8;
+      
+      &:hover {
+        background: $main-font;
+        border: 1px solid $main-font-d;
+        color: #fff;
+      }
+
+      svg.bi.bi-arrow-right {
+        font-size: 19px;
+      }
+    }
+  }
+}

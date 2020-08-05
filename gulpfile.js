@@ -37,8 +37,8 @@ gulp.task("markup", function () {
       })
     )
     .pipe(concat("index.html"))
-    .pipe(gulp.dest(paths.public.public))
-    // .pipe(notify("HTML #done"));
+    .pipe(gulp.dest(paths.public.public));
+  // .pipe(notify("HTML #done"));
 });
 
 // STYLES TASK
@@ -67,11 +67,12 @@ gulp.task("script", function () {
   // .pipe(notify('JS #done'))
 });
 
-gulp.task("images_process", function () {
+
+gulp.task("images", function () {
   return gulp
-    .src(`${paths.src.imgs}/**/*.+(png|jpg|svg|gif)`)
-    .pipe(image)
-    .pipe(gulp.dest(paths.public.imgs));
+    .src(`${paths.src.images}/**/*.*`)
+    .pipe(image())
+    .pipe(gulp.dest(`${paths.public.imgs}/`));
 });
 
 // WATCH ALL FILES

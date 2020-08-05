@@ -1,5 +1,19 @@
+// HELPERS:==>
+@import "./helpers/vars";
 @import "./helpers/globals";
-
 @import "./helpers/mixins";
 
-@import "./helpers/vars";
+// COMPONENTS:==>
+@import "./components/nav";
+
+
+
+
+
+
+
+
+
+
+
+@import "./helpers/mediaQ"; // media file must be always the last file to apply changes as expected.
