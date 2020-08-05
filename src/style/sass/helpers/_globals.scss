@@ -1,8 +1,13 @@
-// @import url('');  // place your fonts.
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&family=Staatliches&family=Tajawal&display=swap"); // place your fonts.
+@import "./vars";
 
 body {
-  // just for testing.
-  h1 {
-    color: red;
+  font-family: $normal-font;
+  height: 10000px;
+
+  h1,
+  h2.h1 {
+    font-family: $headings-font;
+    font-weight: bold;
   }
 }
