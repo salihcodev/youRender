@@ -1,8 +1,10 @@
 doctype html
 html
   head
+    title youRender|Home
     link(rel="stylesheet" href="./css/app-style.css")
-    title youRender | Home
+    link(href='https://fonts.googleapis.com/css2?family=Rowdies:wght@700&family=Staatliches&family=Tajawal:wght@300;400&display=swap' rel='stylesheet')
+
   body
     //- involve navbar 
     include ../components/nav.component.pug
@@ -10,7 +12,7 @@ html
 
     //-******************* THE REST OF CONTENT *******************-//
     //- involve header...
-
+    include ../layouts/home/header.section.pug
     //-******************* THE END OF CONTENT *******************-//
 
 
