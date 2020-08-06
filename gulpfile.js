@@ -20,7 +20,6 @@ var paths = {
   },
   src: {
     images: "src/images",
-    maps: "src/maps",
     markup: "src/markup",
     script: "src/script",
     style: "src/style",
@@ -30,7 +29,7 @@ var paths = {
 // MARKUP TASK
 gulp.task("markup", function () {
   return gulp
-    .src(`${paths.src.markup}/app-root.pug`)
+    .src(`${paths.src.markup}/views/home.page.pug`)
     .pipe(
       pug({
         pretty: true,
@@ -52,7 +51,7 @@ gulp.task("style", function () {
     .pipe(sass.sync({ outputStyle: "compressed" }).on("error", sass.logError))
     .pipe(prefix())
     .pipe(concat("app-style.css"))
-    .pipe(sourcemaps.write(`../../${paths.src.maps}`))
+    .pipe(sourcemaps.write("../maps"))
     .pipe(gulp.dest(paths.public.css));
   // .pipe(notify('CSS #done'))
 });
@@ -67,7 +66,6 @@ gulp.task("script", function () {
   // .pipe(notify('JS #done'))
 });
 
-
 gulp.task("images", function () {
   return gulp
     .src(`${paths.src.images}/**/*.*`)
@@ -80,6 +78,7 @@ gulp.task("shotAll", function () {
   gulp.watch(`${paths.src.markup}/**/*.*`, gulp.series("markup"));
   gulp.watch(`${paths.src.style}/**/*.*`, gulp.series("style"));
   gulp.watch(`${paths.src.script}/**/*.*`, gulp.series("script"));
+  gulp.watch(`${paths.src.images}/**/*.*`, gulp.series("images"));
 });
 
 // APPLY ALL CHANGES
