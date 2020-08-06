@@ -29,7 +29,7 @@ var paths = {
 // MARKUP TASK
 gulp.task("markup", function () {
   return gulp
-    .src(`${paths.src.markup}/app-root.pug`)
+    .src(`${paths.src.markup}/views/home.page.pug`)
     .pipe(
       pug({
         pretty: true,
