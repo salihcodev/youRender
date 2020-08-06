@@ -51,6 +51,8 @@ nav.navbar {
       margin-left: 30px;
       font-weight: bolder;
       &:hover {
+        background: $main-cl;
+        border: 1px solid $main-cl-d;
         color: #fff;
         background: $alt-cl;
       }

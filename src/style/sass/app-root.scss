@@ -6,14 +6,8 @@
 // COMPONENTS:==>
 @import "./components/nav";
 
-
-
-
-
-
-
-
-
-
+// LAYOUTS:==>
+// home layouts:
+@import "./layouts/home/_header.section.scss";
 
 @import "./helpers/mediaQ"; // media file must be always the last file to apply changes as expected.

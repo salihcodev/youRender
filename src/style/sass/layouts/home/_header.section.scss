@@ -1,0 +1,35 @@
+// IMPORTING:
+@import "../../helpers/vars";
+
+header.header.home-header {
+  background: url("../imgs/header/header-cover-bk.svg") 50% / cover;
+  height: 100vh;
+  border-bottom: 1px solid $c-gray;
+  padding: 70px 40px 20px;
+
+  .header.content {
+    margin-top: 30px;
+
+    h1.header-heading {
+      font-size: 70px;
+      font-family: $bold-font;
+    }
+
+    p.header-description {
+      font-size: 23px;
+      margin-left: 2px;
+      color: $c-alt;
+    }
+
+    button.btn.get-free-trail {
+      padding: 17px 10px 10px;
+      font-weight: bolder;
+      text-transform: uppercase;
+      border: 1px solid $alt-cl-d;
+      border-right-width: 4px;
+      border-bottom-width: 4px;
+      background: $alt-cl;
+      color: $c-gray;
+    }
+  }
+}
