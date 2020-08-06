@@ -20,9 +20,10 @@ $extra_large_small_point: 1200px;
     .collapse.navbar-collapse {
       a.login-link {
         width: 100%;
-        margin-top: 30px;
+        margin-top: 10px;
 
-        button.login {
+        button.login,
+        button.free-trail {
           margin-left: 0;
           width: 100%;
         }
@@ -39,8 +40,10 @@ $extra_large_small_point: 1200px;
         align-items: flex-start;
       }
 
-      button.login {
+      button.login,
+      button.free-trail {
         margin-left: 0;
+        margin-top: 10px;
       }
     }
   }
@@ -54,8 +57,10 @@ $extra_large_small_point: 1200px;
         align-items: flex-start;
       }
 
-      button.login {
+      button.login,
+      button.free-trail {
         margin-left: 0;
+        margin-top: 10px;
       }
     }
   }
@@ -63,13 +68,6 @@ $extra_large_small_point: 1200px;
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: $medium_small_point) and (max-width: $large_small_point) {
-  // nav.navbar {
-  //   .collapse.navbar-collapse {
-  //     ul.navbar-nav {
-  //       align-items: flex-start;
-  //     }
-  //   }
-  // }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */

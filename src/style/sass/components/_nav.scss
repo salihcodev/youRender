@@ -4,11 +4,12 @@
 nav.navbar {
   padding-left: 10px;
   padding-right: 10px;
+  margin-top: -20px;
 
   a.navbar-brand {
     .logo-container {
       background-image: url("../imgs/nav/app-logo.svg");
-      width: 100px;
+      width: 220px;
       height: 100px;
       background-size: cover;
     }
@@ -44,18 +45,26 @@ nav.navbar {
       }
     }
 
-    button.login {
+    button.free-trail {
+      // background: $main-font;
+      border: 1px solid $alt-cl-d;
       margin-left: 30px;
-      font-size: 13px;
-      height: 33px;
       font-weight: bolder;
-      border: 1px solid $c-gray-8;
-      
       &:hover {
-        background: $main-font;
-        border: 1px solid $main-font-d;
         color: #fff;
+        background: $alt-cl;
       }
+    }
+
+    button.login {
+      margin-left: 10px;
+      // font-size: 13px;
+      font-weight: bolder;
+      // height: 33px;
+      border: 1px solid $c-gray-8;
+      background: $main-cl;
+      border: 1px solid $main-cl-d;
+      color: #fff;
 
       svg.bi.bi-arrow-right {
         font-size: 19px;
