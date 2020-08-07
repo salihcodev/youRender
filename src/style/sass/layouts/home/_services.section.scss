@@ -10,7 +10,9 @@ section.services {
       padding-top: 50px;
       margin-bottom: 10px;
 
-      .service-block-block1 {
+      .service-block-block1,
+      .service-block-block2,
+      .service-block-block3 {
         padding-left: 70px;
         padding-bottom: 50px;
         margin-top: 50px;
@@ -60,7 +62,7 @@ section.services {
             }
           }
           button.btn.service-block-btn {
-            border: 1px $alt-cl;
+            border: 2px solid $alt-cl-d;
             padding: 14px 20px 5px;
             background: $alt-cl;
             color: $c-gray;
@@ -73,10 +75,47 @@ section.services {
           padding: 10px;
         }
       }
-    }
 
-    .demos {
-      border-bottom: 1px solid #333;
+      // reset the global cascading for block2.
+      .service-block-block2 {
+        padding-right: 70px;
+        padding-left: 0;
+
+        .wing.text-wing {
+          p.service-block-flag {
+            color: $alt3-cl-l;
+          }
+
+          ul.service-block-features {
+            li {
+              span.feature-icon {
+                color: $main-cl;
+                font-size: 25px;
+                margin-top: -8px;
+              }
+            }
+          }
+          button.btn.service-block-btn {
+            border: 2px solid $alt3-cl-d;
+
+            background: $alt3-cl;
+          }
+
+          a.feature-browse-all {
+            text-decoration: none;
+
+            p {
+              color: $main-cl;
+              margin-top: 10px;
+              margin-left: 2px;
+            }
+          }
+        }
+      }
     }
+  }
+
+  .demos {
+    border-bottom: 1px solid #333;
   }
 }
