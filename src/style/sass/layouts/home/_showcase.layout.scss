@@ -1,0 +1,70 @@
+// IMPORTING:
+@import "../../helpers/vars";
+
+section.showcase {
+  .product-showcase {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 200px;
+    flex-wrap: wrap;
+
+    .feature {
+      width: 110px;
+      min-height: 90px;
+      text-align: center;
+      margin-bottom: 20px;
+      margin-left: 5px;
+      margin-right: 5px;
+
+      .feat-wrapper {
+        .icon {
+          height: 70px;
+          border-radius: 15px;
+          margin-bottom: 18px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          img {
+            width: 40px;
+          }
+        }
+
+        .icon-1 {
+          background: #a8ffe2;
+        }
+
+        .icon-2 {
+          background: #fff9a8;
+        }
+
+        .icon-3 {
+          background: #fca9a9;
+        }
+
+        .icon-4 {
+          background: #a8c6ff;
+        }
+
+        .icon-5 {
+          background: #ffc8a8;
+        }
+
+        .icon-6 {
+          background: #a1a1c9;
+        }
+
+        .icon-7 {
+          background: #e1b7fd;
+        }
+
+        span.title {
+          text-transform: capitalize;
+          color: $c2-alt;
+          font-weight: 100;
+        }
+      }
+    }
+  }
+}
