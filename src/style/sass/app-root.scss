@@ -8,6 +8,12 @@
 
 // LAYOUTS:==>
 // home layouts:
+
+// HEADER->
 @import "./layouts/home/_header.section.scss";
+// SHOWCASE->
+@import "./layouts/home/showcase.layout";
+
+
 
 @import "./helpers/mediaQ"; // media file must be always the last file to apply changes as expected.

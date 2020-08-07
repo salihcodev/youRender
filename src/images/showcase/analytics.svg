@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 480 480"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="analytics.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="717"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="0.43383947"
+     inkscape:cx="11.129939"
+     inkscape:cy="258.22345"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <path
+     d="M440 248H232V40a8 8 0 00-8-8C100.288 32 0 132.288 0 256s100.288 224 224 224 224-100.288 224-224a8 8 0 00-8-8zM224 464c-114.875.027-208.022-93.075-208.05-207.95C15.924 144.249 104.281 52.425 216 48.152V256a8 8 0 008 8h207.848C427.415 375.62 335.708 463.865 224 464z"
+     id="path2"
+     style="fill:#c1b620;fill-opacity:1;stroke:#9b921a;stroke-opacity:1;stroke-width:4.1;stroke-miterlimit:4;stroke-dasharray:none" />
+  <path
+     d="M256 0a8 8 0 00-8 8v216a8 8 0 008 8h216a8 8 0 008-8C479.859 100.347 379.653.141 256 0zm8 216V16.152C372.534 20.471 459.529 107.466 463.848 216H264z"
+     id="path4"
+     style="fill:#c1b620;fill-opacity:1;stroke:#9b921a;stroke-opacity:1;stroke-width:4.1;stroke-miterlimit:4;stroke-dasharray:none" />
+</svg>

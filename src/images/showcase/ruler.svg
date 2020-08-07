@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="ruler.svg"
+   id="svg8"
+   version="1.1"
+   width="512"
+   height="512">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg8"
+     inkscape:window-maximized="1"
+     inkscape:window-y="24"
+     inkscape:window-x="0"
+     inkscape:cy="215.66782"
+     inkscape:cx="-59.420619"
+     inkscape:zoom="0.40672451"
+     showgrid="false"
+     id="namedview10"
+     inkscape:window-height="717"
+     inkscape:window-width="1366"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <g
+     style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;fill:#f76868;fill-opacity:1"
+     id="g6"
+     fill="#f65555"
+     stroke="#e40000">
+    <path
+       style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;fill:#f76868;fill-opacity:1"
+       id="path2"
+       d="M501.66 475.34l-465-465A8.008 8.008 0 0031 8H16a8 8 0 00-8 8v480a8 8 0 008 8h480a8 8 0 008-8v-15a8.008 8.008 0 00-2.34-5.66zM488 488h-32v-16a8 8 0 00-16 0v16h-32v-8a8 8 0 00-16 0v8h-32v-16a8 8 0 00-16 0v16h-32v-8a8 8 0 00-16 0v8h-32v-16a8 8 0 00-16 0v16h-32v-8a8 8 0 00-16 0v8h-32v-16a8 8 0 00-16 0v16h-32v-8a8 8 0 00-16 0v8H72v-16a8 8 0 00-16 0v16H24v-32h16a8 8 0 000-16H24v-32h8a8 8 0 000-16h-8v-32h16a8 8 0 000-16H24v-32h8a8 8 0 000-16h-8v-32h16a8 8 0 000-16H24v-32h8a8 8 0 000-16h-8v-32h16a8 8 0 000-16H24v-32h8a8 8 0 000-16h-8V72h16a8 8 0 000-16H24V24h3.69L488 484.31z" />
+    <path
+       style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;fill:#f76868;fill-opacity:1"
+       id="path4"
+       d="M112 408h176a8 8 0 005.657-13.657l-176-176A8 8 0 00104 224v176a8 8 0 008 8zm8-164.687L268.686 392H120zM493.71 278.51L233.49 18.29a8 8 0 00-11.31 0l-67.89 67.89a8 8 0 000 11.31l260.22 260.22a8 8 0 0011.31 0l67.89-67.89a8 8 0 000-11.31zm-73.54 62.23l-5.66-5.66 5.66-5.66a8 8 0 00-11.32-11.31l-5.65 5.65-11.32-11.31 16.97-16.97a8 8 0 00-11.31-11.31l-16.97 16.97-11.32-11.32 5.66-5.65a8 8 0 00-11.31-11.32l-5.66 5.66-11.31-11.31 16.97-16.97a8 8 0 10-11.32-11.32l-16.97 16.97L324 244.57l5.66-5.66a8 8 0 00-11.32-11.31l-5.65 5.65-11.32-11.31 16.97-16.97a8 8 0 00-11.31-11.31l-16.97 16.97-11.31-11.32 5.65-5.65a8 8 0 10-11.31-11.32l-5.66 5.66-11.31-11.31 16.97-16.97a8 8 0 00-11.32-11.32l-16.97 16.97-11.31-11.31 5.66-5.66a8 8 0 00-11.32-11.31l-5.65 5.65-11.32-11.31 16.97-16.97a8 8 0 00-11.31-11.31l-16.97 16.97-11.31-11.32 5.65-5.65a8 8 0 10-11.31-11.32l-5.66 5.66-5.65-5.66 39.59-39.59 248.9 248.9zm50.91-50.92l-248.9-248.9 5.65-5.66 248.9 248.91z" />
+  </g>
+</svg>
