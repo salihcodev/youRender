@@ -58,6 +58,18 @@ section.services {
               span.feature-text {
                 font-weight: bolder;
                 color: $c-alt;
+                position: relative;
+
+                &::after {
+                  content: "";
+                  display: block;
+                  height: 1px;
+                  background: $c-gray;
+                  position: absolute;
+                  top: 17px;
+                  left: 3px;
+                  right: -125px;
+                }
               }
             }
           }
@@ -99,6 +111,39 @@ section.services {
             border: 2px solid $alt3-cl-d;
 
             background: $alt3-cl;
+          }
+
+          a.feature-browse-all {
+            text-decoration: none;
+
+            p {
+              color: $main-cl;
+              margin-top: 10px;
+              margin-left: 2px;
+            }
+          }
+        }
+      }
+
+      // reset the global cascading for block3.
+      .service-block-block3 {
+        .wing.text-wing {
+          p.service-block-flag {
+            color: $alt2-cl-l;
+          }
+
+          ul.service-block-features {
+            li {
+              span.feature-icon {
+                color: $alt-cl;
+                margin-top: -8px;
+              }
+            }
+          }
+          button.btn.service-block-btn {
+            border: 2px solid $alt2-cl-d;
+            color: $c-alt;
+            background: $alt2-cl;
           }
 
           a.feature-browse-all {
