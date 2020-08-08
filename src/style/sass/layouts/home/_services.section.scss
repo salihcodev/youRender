@@ -6,7 +6,6 @@ section.services {
     margin-top: 50px;
 
     .all-services {
-      border-bottom: 1px solid #333;
       padding-top: 50px;
       margin-bottom: 10px;
 
@@ -247,7 +246,31 @@ section.services {
     }
   }
 
-  .demos {
-    border-bottom: 1px solid #333;
+  section.demos {
+    .demo-card {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 15px;
+      transition: box-shadow ease-in-out 0.3s;
+
+      &:hover {
+        box-shadow: 8px 10px 26px -17px #0000009c;
+      }
+
+      span.card-flag.uppercase {
+        text-transform: uppercase;
+        color: $alt-cl;
+        font-weight: bolder;
+        font-size: 14px;
+      }
+
+      h2.card-heading {
+        font-family: $bold-font;
+      }
+      .card-img {
+      }
+    }
   }
 }
