@@ -73,6 +73,7 @@ section.services {
               }
             }
           }
+
           button.btn.service-block-btn {
             border: 2px solid $alt-cl-d;
             padding: 14px 20px 5px;
@@ -85,6 +86,92 @@ section.services {
 
         .wing.img-wing {
           padding: 10px;
+        }
+      }
+
+      section.declaration {
+        margin-bottom: 70px;
+        padding-top: 20px;
+
+        .dec-header {
+          p.header-text.text-center {
+            padding: 14px 6px 4px;
+            border-left: 3px solid #f0654c;
+            margin-top: 20px;
+            margin-bottom: 70px;
+            font-size: 17px;
+          }
+        }
+
+        .dec-body {
+          padding: 0 80px;
+
+          .dec-body-img {
+            img {
+            }
+          }
+
+          .dec-body-text {
+            .dec-logo {
+              background: url("../imgs/services/services-declaration-logo.svg");
+              width: 40px;
+              height: 40px;
+              background-size: cover;
+              margin: 10px;
+              border: 5px solid #ddd;
+              border-radius: 50%;
+              padding: 20px;
+              border-top-style: dotted;
+            }
+
+            h2.dec-heading {
+              font-weight: bold;
+              color: $v-dark;
+              font-family: $bold-font;
+              span.youRender {
+              }
+            }
+
+            p.dec-description {
+              color: $c2-alt;
+              font-size: 18px;
+
+              span.dec-awa {
+                font-weight: bold;
+              }
+            }
+          }
+        }
+
+        p.dec-directed.text-center {
+          padding: 14px 6px 4px;
+          margin-top: 20px;
+          margin-bottom: 70px;
+
+          span.dec-directed-link {
+            a.dec-link {
+              text-decoration: none;
+              color: $alt-cl-l;
+            }
+          }
+        }
+
+        .dec-footer {
+          padding: 20px 10px 15px;
+          margin-top: 50px;
+          margin-bottom: 100px;
+        }
+
+        h4.footer-heading {
+        }
+
+        a.awa-page {
+          button {
+            border: 1px solid $main-cl-d;
+            padding: 8px 25px 2px;
+            background: $main-cl;
+            color: $c-gray;
+          }
         }
       }
 
