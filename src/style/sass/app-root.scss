@@ -13,7 +13,7 @@
 @import "./layouts/home/_header.section.scss";
 // SHOWCASE->
 @import "./layouts/home/showcase.layout";
-
-
+// SHOWCASE->
+@import "./layouts/home/services.section";
 
 @import "./helpers/mediaQ"; // media file must be always the last file to apply changes as expected.
