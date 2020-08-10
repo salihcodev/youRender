@@ -1,0 +1,189 @@
+section.more-about {
+  margin-top: 100px;
+
+  .about-ad {
+    padding: 50px;
+    background: url("../imgs/more-about/adv-cover.svg") center/cover;
+    min-height: 300px;
+
+    h2.adv-heading {
+      font-weight: bold;
+      color: $c-gray;
+      font-family: $bold-font;
+    }
+
+    p.adv-dec {
+      color: $c-gray;
+    }
+
+    button.adv-btn.btn {
+      border: 2px solid $c-gray-8;
+      padding: 14px 20px 5px;
+      color: $c-gray;
+      font-weight: bolder;
+      text-transform: uppercase;
+      transition: background ease-in-out 0.3;
+
+      &:hover {
+        color: $c-alt;
+        background: $c-gray;
+      }
+    }
+  }
+
+  .more-about-container {
+    padding: 50px 0;
+    color: $c-gray;
+    background: #161923;
+
+    .what-we-do {
+      .block {
+        margin-bottom: 70px;
+
+        h3.block-heading {
+          padding: 30px 5px;
+          position: relative;
+          font-weight: bolder;
+          text-transform: uppercase;
+
+          &::after {
+            @include pseudo-border-bottom;
+          }
+        }
+
+        .we-do-row {
+          .row-item {
+            border: 1px solid $c-gray-1;
+            padding: 20px 12px 12px;
+            border-radius: 14px;
+            min-height: 100%;
+            text-align: center;
+
+            .item-content {
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+            h5.item-title {
+              margin-top: 30px;
+            }
+          }
+          // just for the one i moved outside the <item content> division;
+          h5.item-title {
+            margin-top: 30px;
+          }
+        }
+      }
+
+      .what-we-do-block2.block {
+        margin-bottom: 100px;
+
+        .we-do-row {
+          .row-item {
+            max-height: 170px;
+            padding: 20px 12px 12px;
+            background: $c-gray-1;
+
+            .item-content {
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+          }
+
+          h5.item-title {
+            text-align: center;
+            margin-top: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  .coming-soon {
+    margin: 100px 0;
+    padding: 20px 10px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $c-gray-1;
+
+    .flex-shield {
+      width: 100%;
+    }
+
+    button.coming-soon-btn {
+      border: 1px solid $c-gray;
+      padding: 10px 18px 3px;
+      background: $c-gray;
+      color: $c-alt;
+      border-radius: 50px;
+
+      &:hover {
+        color: $c-gray;
+        background: $alt-cl;
+        border: 1px solid $alt-cl-d;
+      }
+    }
+
+    .coming-soon-content {
+      margin-bottom: 20px;
+    }
+
+    p.item {
+      text-align: center;
+      margin-top: 20px;
+
+      span.item-icon {
+        padding: 10px;
+        font-size: 25px;
+        color: $main-cl-l;
+      }
+      span.item-text {
+      }
+    }
+  }
+
+  section.ratings {
+    margin: 50px 0;
+
+    h2.ratings-heading {
+      color: $c-gray;
+    }
+    p.ratings-description {
+      color: $c-gray;
+    }
+
+    .ratings-block {
+      // globals:
+      .r-box {
+        h2.r-box-title {
+          color: $c-gray;
+          margin: 0;
+        }
+
+        span.min-desc {
+          color: $c2-alt;
+        }
+      }
+
+      .r-box {
+        span.rating-stars {
+          display: block;
+          color: #ffda62;
+        }
+      }
+      // ======
+    }
+
+    .rating-img-container {
+      img {
+        width: 100%;
+        filter: grayscale(1);
+        margin-top: -20px;
+      }
+    }
+  }
+}
