@@ -1,0 +1,9 @@
+@mixin pseudo-border-bottom {
+  content: "";
+  position: absolute;
+  top: 65px;
+  left: 15px;
+  display: block;
+  width: 100%;
+  border-top: 1px dashed $c-gray-1;
+}
