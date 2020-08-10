@@ -1,0 +1,36 @@
+// IMPORTING:
+@import "../../helpers/vars";
+
+section.FAQ {
+  margin: 50px 10px;
+
+  h2.FAQ-heading {
+    text-align: center;
+    font-weight: bold;
+    color: $v-dark;
+    font-family: $bold-font;
+  }
+
+  .questions-container {
+    ul.questions {
+      padding-top: 50px;
+
+      li.question {
+        padding: 20px 15px 12px;
+        border: 1px solid $c-gray;
+        font-size: 20px;
+        margin: 5px 0;
+        border-radius: 2px;
+        position: relative;
+      }
+
+      p.answer {
+        transition: all ease-in-out 0.2s;
+        margin-left: 10px;
+        max-height: 0;
+        overflow: hidden;
+        border-radius: 3px;
+      }
+    }
+  }
+}

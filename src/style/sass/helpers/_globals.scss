@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&family=Staatliches&family=Tajawal&display=swap"); // place your fonts.
 @import "./vars";
+// GLOBAL CLASSES:
+
+.add-padding-to-accordion {
+  padding: 10px 0 50px;
+}
 
 body {
   font-family: $normal-font;
