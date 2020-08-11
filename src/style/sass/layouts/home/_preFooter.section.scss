@@ -1,0 +1,34 @@
+// IMPORTING:
+@import "../../helpers/vars";
+
+section.preFooter {
+  background: linear-gradient(45deg, #40407a, #525296);
+  margin-top: 100px;
+  padding: 40px 10px;
+  min-height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h2.prefooter-heading {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: $v-dark;
+    color: $c-gray;
+    font-family: $bold-font;
+  }
+
+  p.prefooter-description {
+    margin-bottom: 40px;
+    color: $c-gray;
+    font-size: 18px;
+  }
+
+  button.prefooter-btn.btn {
+    background: $c-gray;
+    font-weight: bolder;
+    border-bottom: 4px solid #fff;
+    padding: 20px 26px 11px;
+    font-weight: bolder;
+  }
+}
