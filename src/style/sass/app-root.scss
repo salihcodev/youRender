@@ -19,5 +19,7 @@
 @import "./layouts/home/more-about.section";
 // FAQ's->
 @import "./layouts/home/FAQ.section";
+// preFooter->
+@import "./layouts/home/preFooter.section";
 
 @import "./helpers/mediaQ"; // media file must be always the last file to apply changes as expected.
