@@ -21,5 +21,7 @@
 @import "./layouts/home/FAQ.section";
 // preFooter->
 @import "./layouts/home/preFooter.section";
+// footer->
+@import "./components/footer";
 
 @import "./helpers/mediaQ"; // media file must be always the last file to apply changes as expected.

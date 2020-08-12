@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&family=Staatliches&family=Tajawal&display=swap"); // place your fonts.
 @import "./vars";
-// GLOBAL CLASSES:
 
+// GLOBAL CLASSES:
 .add-padding-to-accordion {
   padding: 10px 0 50px;
 }
 
+// GLOBAL STYLE:
 body {
   font-family: $normal-font;
   color: $c-main;
@@ -22,4 +23,24 @@ body {
     padding: 0;
     list-style: none;
   }
+
+  li,
+  p,
+  a,
+  span,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    &::first-letter {
+      text-transform: uppercase !important;
+    }
+  }
+}
+
+*::selection {
+  background: $c-alt;
+  color: $c-gray;
 }
