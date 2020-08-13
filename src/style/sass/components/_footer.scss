@@ -3,19 +3,20 @@
 
 footer.footer {
   background: #fff;
-  padding: 50px;
+  padding: 50px 20px 10px;
 
   section.footer-body-container {
-    .site-map {
+    .site-brand {
       .logo {
         background: url("../imgs/footer/app-logo.svg") center/cover;
         width: 200px;
         height: 70px;
         margin-left: -16px;
+        margin-top: -20px;
       }
 
       p.brand-description {
-        font-size: 20px;
+        font-size: 18px;
         color: $c2-alt;
         line-height: 25px;
         margin-top: 35px;
@@ -36,7 +37,7 @@ footer.footer {
       }
     }
 
-    .other-navigable-links {
+    .site-map {
       .links-block {
         h5.links-block {
           font-weight: bold;
@@ -44,6 +45,8 @@ footer.footer {
         }
 
         ul.social-contacts {
+          margin-top: 23px;
+
           li {
             display: flex;
             transition: all ease-in-out 0.2s;
@@ -64,7 +67,7 @@ footer.footer {
             }
 
             a {
-              font-size: 18px;
+              font-size: 16px;
               color: $c2-alt;
               text-decoration: none;
             }
@@ -80,7 +83,7 @@ footer.footer {
       border-top: 1px solid $c-gray;
 
       p.copyrights-line.text-center {
-        font-size: 20px;
+        font-size: 18px;
         color: $c2-alt;
 
         a {

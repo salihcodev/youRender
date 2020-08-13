@@ -46,13 +46,12 @@ nav.navbar {
     }
 
     button.free-trail {
-      // background: $main-font;
+      font-family: $main-font;
       border: 1px solid $alt-cl-d;
       margin-left: 30px;
-      font-weight: bolder;
+
       &:hover {
         background: $main-cl;
-        border: 1px solid $main-cl-d;
         color: #fff;
         background: $alt-cl;
       }
@@ -60,13 +59,14 @@ nav.navbar {
 
     button.login {
       margin-left: 10px;
-      // font-size: 13px;
-      font-weight: bolder;
-      // height: 33px;
       border: 1px solid $c-gray-8;
       background: $main-cl;
       border: 1px solid $main-cl-d;
       color: #fff;
+
+      &:hover {
+        background: $main-cl-l;
+      }
 
       svg.bi.bi-arrow-right {
         font-size: 19px;

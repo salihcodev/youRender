@@ -12,10 +12,11 @@ section.preFooter {
 
   h2.prefooter-heading {
     margin-bottom: 20px;
-    font-weight: bold;
+    font-weight: bolder;
     color: $v-dark;
     color: $c-gray;
-    font-family: $bold-font;
+    font-size: 60px;
+    font-family: $main-font;
   }
 
   p.prefooter-description {
@@ -28,7 +29,7 @@ section.preFooter {
     background: $c-gray;
     font-weight: bolder;
     border-bottom: 4px solid #fff;
-    padding: 20px 26px 11px;
-    font-weight: bolder;
+    padding: 15px 35px 10px;
+    margin-top: 50px;
   }
 }

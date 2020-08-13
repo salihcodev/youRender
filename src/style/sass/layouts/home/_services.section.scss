@@ -29,7 +29,7 @@ section.services {
           h2.service-block-heading {
             font-weight: bold;
             color: $v-dark;
-            font-family: $bold-font;
+            font-family: $main-font;
 
             span.youRender {
               color: $main-cl;
@@ -75,10 +75,9 @@ section.services {
 
           button.btn.service-block-btn {
             border: 2px solid $alt-cl-d;
-            padding: 14px 20px 5px;
+            padding: 10px 15px 5px;
             background: $alt-cl;
             color: $c-gray;
-            font-weight: bolder;
             text-transform: uppercase;
           }
         }
@@ -126,7 +125,7 @@ section.services {
             h2.dec-heading {
               font-weight: bold;
               color: $v-dark;
-              font-family: $bold-font;
+              font-family: $main-font;
               span.youRender {
               }
             }
@@ -167,7 +166,7 @@ section.services {
         a.awa-page {
           button {
             border: 1px solid $main-cl-d;
-            padding: 8px 25px 2px;
+            padding: 8px 20px 6px;
             background: $main-cl;
             color: $c-gray;
           }
@@ -255,22 +254,22 @@ section.services {
       padding: 15px;
       transition: box-shadow ease-in-out 0.3s;
 
-      &:hover {
-        box-shadow: 8px 10px 26px -17px #0000009c;
-      }
-
       span.card-flag.uppercase {
         text-transform: uppercase;
         color: $alt-cl;
         font-weight: bolder;
-        font-size: 14px;
+        font-size: 13px;
       }
 
       h2.card-heading {
-        font-family: $bold-font;
+        font-family: $main-font;
       }
       .card-img {
       }
+    }
+    .card2,
+    .card3 {
+      box-shadow: 8px 10px 26px -17px #0000009c;
     }
   }
 }

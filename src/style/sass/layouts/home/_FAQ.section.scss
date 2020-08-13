@@ -8,7 +8,7 @@ section.FAQ {
     text-align: center;
     font-weight: bold;
     color: $v-dark;
-    font-family: $bold-font;
+    font-family: $main-font;
   }
 
   .questions-container {
@@ -16,17 +16,33 @@ section.FAQ {
       padding-top: 50px;
 
       li.question {
-        padding: 20px 15px 12px;
-        border: 1px solid $c-gray;
+        padding: 10px 18px 10px;
+        border-bottom: 1px dashed $c-gray;
         font-size: 20px;
-        margin: 5px 0;
         border-radius: 2px;
         position: relative;
+        cursor: pointer;
+
+        .toggler {
+          background: $c-gray-9;
+          overflow: hidden;
+          @include FAQ-toggling;
+
+          .toggler-viewer {
+            position: absolute;
+            top: -5px;
+          }
+
+          span {
+            display: block;
+          }
+        }
       }
 
       p.answer {
         transition: all ease-in-out 0.2s;
-        margin-left: 10px;
+        margin-top: 15px;
+        margin-left: 20px;
         max-height: 0;
         overflow: hidden;
         border-radius: 3px;

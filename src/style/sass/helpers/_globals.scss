@@ -2,19 +2,20 @@
 @import "./vars";
 
 // GLOBAL CLASSES:
-.add-padding-to-accordion {
-  padding: 10px 0 50px;
+.toggle-FAQ-icon {
+  .toggler-viewer {
+    top: -42px !important;
+  }
 }
 
 // GLOBAL STYLE:
 body {
-  font-family: $normal-font;
+  font-family: $main-font;
   color: $c-main;
-  height: 10000px;
 
   h1,
   h2.h1 {
-    font-family: $headings-font;
+    font-family: $main-font;
     font-weight: bold;
   }
 

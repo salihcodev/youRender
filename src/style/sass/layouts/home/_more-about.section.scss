@@ -9,7 +9,8 @@ section.more-about {
     h2.adv-heading {
       font-weight: bold;
       color: $c-gray;
-      font-family: $bold-font;
+      font-family: $main-font;
+      font-size: 50px;
     }
 
     p.adv-dec {
@@ -18,7 +19,9 @@ section.more-about {
 
     button.adv-btn.btn {
       border: 2px solid $c-gray-8;
-      padding: 14px 20px 5px;
+      border: 2px solid #ddd8;
+      padding: 12px 14px 8px;
+      font-size: 14px;
       color: $c-gray;
       font-weight: bolder;
       text-transform: uppercase;
@@ -116,10 +119,9 @@ section.more-about {
 
     button.coming-soon-btn {
       border: 1px solid $c-gray;
-      padding: 10px 18px 3px;
       background: $c-gray;
       color: $c-alt;
-      border-radius: 50px;
+      margin-bottom: 20px;
 
       &:hover {
         color: $c-gray;
