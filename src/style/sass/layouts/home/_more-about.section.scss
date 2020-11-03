@@ -3,7 +3,7 @@ section.more-about {
 
   .about-ad {
     padding: 50px;
-    background: url("../imgs/more-about/adv-cover.svg") center/cover;
+    background: url('../imgs/more-about/adv-cover.svg') center/cover;
     min-height: 300px;
 
     h2.adv-heading {
@@ -54,27 +54,32 @@ section.more-about {
           }
         }
 
+        // global
         .we-do-row {
           .row-item {
             border: 1px solid $c-gray-1;
             padding: 20px 12px 12px;
             border-radius: 14px;
-            min-height: 100%;
             text-align: center;
+            min-height: 200px;
+            padding: 20px 12px 12px;
+            background: $c-gray-1;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
 
             .item-content {
               img {
-                width: 100%;
-                height: 100%;
+                width: 5rem;
+                height: 5rem;
               }
             }
-            h5.item-title {
-              margin-top: 30px;
+
+            h6.item-title {
+              margin-top: 1.5rem;
             }
-          }
-          // just for the one i moved outside the <item content> division;
-          h5.item-title {
-            margin-top: 30px;
           }
         }
       }
@@ -84,21 +89,15 @@ section.more-about {
 
         .we-do-row {
           .row-item {
-            max-height: 170px;
-            padding: 20px 12px 12px;
-            background: $c-gray-1;
-
+            // margin-bottom: 2rem;
             .item-content {
-              img {
-                width: 100%;
-                height: 100%;
-              }
             }
           }
 
-          h5.item-title {
+          h6.item-title {
             text-align: center;
-            margin-top: 30px;
+            font-weight: bolder;
+            margin-bottom: 2rem;
           }
         }
       }
@@ -132,11 +131,16 @@ section.more-about {
 
     .coming-soon-content {
       margin-bottom: 20px;
+
+      .row {
+        align-items: center;
+      }
     }
 
     p.item {
-      text-align: center;
-      margin-top: 20px;
+      margin-top: 0.5rem;
+      border-radius: 10px;
+      background: #41444f;
 
       span.item-icon {
         padding: 10px;

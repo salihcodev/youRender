@@ -1,5 +1,5 @@
 // IMPORTING:
-@import "../helpers/vars";
+@import '../helpers/vars';
 
 footer.footer {
   background: #fff;
@@ -7,8 +7,10 @@ footer.footer {
 
   section.footer-body-container {
     .site-brand {
+      margin-bottom: 3rem;
+
       .logo {
-        background: url("../imgs/footer/app-logo.svg") center/cover;
+        background: url('../imgs/footer/app-logo.svg') center/cover;
         width: 200px;
         height: 70px;
         margin-left: -16px;

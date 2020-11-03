@@ -1,8 +1,8 @@
 // IMPORTING:
-@import "../helpers/vars";
+@import '../helpers/vars';
 
 @mixin pseudo-border-bottom {
-  content: "";
+  content: '';
   position: absolute;
   top: 65px;
   left: 15px;

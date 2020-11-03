@@ -10,7 +10,7 @@ var gulp = require("gulp"),
   sourcemaps = require("gulp-sourcemaps");
 // ====================
 
-// SETUP pathsS.
+// SETUP paths.
 var paths = {
   public: {
     public: "public",

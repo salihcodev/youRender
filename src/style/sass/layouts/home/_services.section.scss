@@ -1,5 +1,5 @@
 // IMPORTS:
-@import "../../helpers/vars";
+@import '../../helpers/vars';
 
 section.services {
   .services-container {
@@ -12,11 +12,12 @@ section.services {
       .service-block-block1,
       .service-block-block2,
       .service-block-block3 {
-        padding-left: 70px;
-        padding-bottom: 50px;
+        padding: 50px 3rem;
         margin-top: 50px;
 
         .wing.text-wing {
+          margin-top: 2rem;
+          margin-bottom: 4rem;
           p.service-block-flag {
             color: $alt-cl-l;
             font-weight: bold;
@@ -60,14 +61,14 @@ section.services {
                 position: relative;
 
                 &::after {
-                  content: "";
+                  content: '';
                   display: block;
                   height: 1px;
                   background: $c-gray;
                   position: absolute;
                   top: 17px;
                   left: 3px;
-                  right: -125px;
+                  right: 0;
                 }
               }
             }
@@ -102,20 +103,24 @@ section.services {
         }
 
         .dec-body {
-          padding: 0 80px;
+          padding: 0 3rem;
 
           .dec-body-img {
+            padding: 0 5rem;
             img {
             }
           }
 
           .dec-body-text {
+            margin-top: 5rem;
+            text-align: center;
             .dec-logo {
-              background: url("../imgs/services/services-declaration-logo.svg");
+              background: url('../imgs/services/services-declaration-logo.svg');
               width: 40px;
               height: 40px;
               background-size: cover;
               margin: 10px;
+              margin: 2rem auto;
               border: 5px solid #ddd;
               border-radius: 50%;
               padding: 20px;
@@ -160,14 +165,16 @@ section.services {
           margin-bottom: 100px;
         }
 
-        h4.footer-heading {
+        h6.footer-heading {
+          text-transform: uppercase;
+          color: $c3-alt;
         }
 
         a.awa-page {
           button {
-            border: 1px solid $main-cl-d;
             padding: 8px 20px 6px;
-            background: $main-cl;
+            border: 2px solid $alt-cl-d;
+            background: $alt-cl;
             color: $c-gray;
           }
         }
@@ -175,7 +182,7 @@ section.services {
 
       // reset the global cascading for block2.
       .service-block-block2 {
-        padding-right: 70px;
+        // padding-right: 70px;
         padding-left: 0;
 
         .wing.text-wing {
@@ -193,9 +200,8 @@ section.services {
             }
           }
           button.btn.service-block-btn {
-            border: 2px solid $alt3-cl-d;
-
-            background: $alt3-cl;
+            border: 2px solid $alt-cl-d;
+            background: $alt-cl;
           }
 
           a.feature-browse-all {
@@ -226,9 +232,9 @@ section.services {
             }
           }
           button.btn.service-block-btn {
-            border: 2px solid $alt2-cl-d;
-            color: $c-alt;
-            background: $alt2-cl;
+            color: $c-gray;
+            border: 2px solid $alt-cl-d;
+            background: $alt-cl;
           }
 
           a.feature-browse-all {

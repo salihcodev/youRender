@@ -1,5 +1,5 @@
 // IMPORTS:
-@import "../helpers/vars";
+@import '../helpers/vars';
 
 nav.navbar {
   padding-left: 10px;
@@ -8,7 +8,7 @@ nav.navbar {
 
   a.navbar-brand {
     .logo-container {
-      background-image: url("../imgs/nav/app-logo.svg");
+      background-image: url('../imgs/nav/app-logo.svg');
       width: 220px;
       height: 100px;
       background-size: cover;
@@ -45,10 +45,13 @@ nav.navbar {
       }
     }
 
-    button.free-trail {
+    a {
+      transition: all ease-in-out 0.3s;
+    }
+
+    a.login-link.btn.free-trail {
       font-family: $main-font;
       border: 1px solid $alt-cl-d;
-      margin-left: 30px;
 
       &:hover {
         background: $main-cl;
@@ -57,8 +60,7 @@ nav.navbar {
       }
     }
 
-    button.login {
-      margin-left: 10px;
+    a.login-link.btn.login {
       border: 1px solid $c-gray-8;
       background: $main-cl;
       border: 1px solid $main-cl-d;

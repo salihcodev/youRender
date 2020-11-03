@@ -18,16 +18,89 @@ $extra_large_small_point: 1200px;
 @media (max-width: $extra_small_point) {
   nav.navbar {
     .collapse.navbar-collapse {
-      a.login-link {
+      a {
         width: 100%;
-        margin-top: 10px;
+      }
 
-        button.login,
-        button.free-trail {
-          margin-left: 0;
+      a.login-link.btn.free-trail {
+        margin-bottom: 0.5rem;
+        margin-top: 2rem;
+      }
+    }
+  }
+
+  header.header.home-header {
+    nav.navbar {
+      .collapse.navbar-collapse {
+        a {
           width: 100%;
         }
+
+        a.login-link.btn.free-trail {
+          margin-bottom: 0.5rem;
+          margin-top: 2rem;
+        }
       }
+    }
+
+    .header.content {
+      width: 100%;
+      text-align: center;
+
+      h1.header-heading {
+        font-size: 40px;
+      }
+
+      p.header-description {
+        font-size: 18px;
+      }
+
+      a.btn.get-free-trail {
+        padding: 0.7rem;
+        font-size: 13px;
+      }
+    }
+  }
+
+  .service-block-block1,
+  .service-block-block2,
+  .service-block-block3 {
+    .wing.text-wing {
+      text-align: center;
+
+      ul.service-block-features {
+        li {
+          span.feature-text {
+            &::after {
+              display: none !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  section.more-about {
+    .about-ad {
+      h2.adv-heading {
+        font-size: 40px;
+      }
+    }
+  }
+
+  section.preFooter {
+    h2.prefooter-heading {
+      font-size: 40px;
+    }
+
+    p.prefooter-description {
+      font-size: 16px;
+    }
+
+    button.prefooter-btn.btn {
+      padding: 12px 22px 7px;
+      margin-top: 50px;
+      font-size: 15px;
     }
   }
 }
@@ -39,12 +112,69 @@ $extra_large_small_point: 1200px;
       ul.navbar-nav {
         align-items: flex-start;
       }
-
-      button.login,
-      button.free-trail {
-        margin-left: 0;
-        margin-top: 10px;
+    }
+  }
+  nav.navbar {
+    .collapse.navbar-collapse {
+      a {
+        width: 100%;
       }
+
+      a.login-link.btn.free-trail {
+        margin: 0.5rem 0;
+      }
+    }
+  }
+
+  header.header.home-header {
+    .header.content {
+      width: 100%;
+      text-align: center;
+
+      h1.header-heading {
+        font-size: 50px;
+      }
+
+      p.header-description {
+        font-size: 20px;
+      }
+
+      a.btn.get-free-trail {
+        padding: 0.8rem;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .service-block-block1,
+  .service-block-block2,
+  .service-block-block3 {
+    .wing.text-wing {
+      text-align: center;
+
+      ul.service-block-features {
+        li {
+          span.feature-text {
+            &::after {
+              display: none !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  section.more-about {
+    .about-ad {
+      h2.adv-heading {
+        font-size: 40px;
+      }
+    }
+  }
+
+  section.preFooter {
+    h2.prefooter-heading {
+      font-size: 50px;
     }
   }
 }
@@ -57,10 +187,49 @@ $extra_large_small_point: 1200px;
         align-items: flex-start;
       }
 
-      button.login,
-      button.free-trail {
-        margin-left: 0;
-        margin-top: 10px;
+      a {
+        width: 100%;
+      }
+
+      a.login-link.btn.free-trail {
+        margin-bottom: 0.5rem;
+        margin-top: 2rem;
+      }
+    }
+  }
+
+  header.header.home-header {
+    .header.content {
+      width: 80vw;
+
+      h1.header-heading {
+        font-size: 60px;
+      }
+
+      p.header-description {
+        font-size: 20px;
+      }
+
+      a.btn.get-free-trail {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .service-block-block1,
+  .service-block-block2,
+  .service-block-block3 {
+    .wing.text-wing {
+      text-align: center;
+
+      ul.service-block-features {
+        li {
+          span.feature-text {
+            &::after {
+              display: none !important;
+            }
+          }
+        }
       }
     }
   }
@@ -68,10 +237,26 @@ $extra_large_small_point: 1200px;
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: $medium_small_point) and (max-width: $large_small_point) {
+  nav.navbar {
+    .collapse.navbar-collapse {
+      a.login-link.btn.free-trail {
+        margin-right: 1rem;
+        margin-left: 1rem;
+      }
+    }
+  }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: $extra_large_small_point) {
+  nav.navbar {
+    .collapse.navbar-collapse {
+      a.login-link.btn.free-trail {
+        margin-right: 1rem;
+        margin-left: 1rem;
+      }
+    }
+  }
 }
 
 /* END MEDIA QUERY PART */

@@ -1,5 +1,5 @@
 // IMPORTING:
-@import "../../helpers/vars";
+@import '../../helpers/vars';
 
 section.FAQ {
   margin: 50px 10px;
@@ -12,40 +12,48 @@ section.FAQ {
   }
 
   .questions-container {
+    min-height: 30rem;
+    padding: 2rem 0;
+
     ul.questions {
       padding-top: 50px;
 
       li.question {
-        padding: 10px 18px 10px;
+        transition: all ease-in-out 0.2s;
         border-bottom: 1px dashed $c-gray;
         font-size: 20px;
         border-radius: 2px;
         position: relative;
         cursor: pointer;
+        padding: 0.7rem;
+
+        &:hover {
+          background: #e6e6e6;
+        }
 
         .toggler {
-          background: $c-gray-9;
           overflow: hidden;
           @include FAQ-toggling;
 
           .toggler-viewer {
             position: absolute;
-            top: -5px;
+            top: -11px;
+            transition: all ease-in-out 0.1s;
           }
 
           span {
             display: block;
+            font-size: 2rem;
           }
         }
       }
 
       p.answer {
-        transition: all ease-in-out 0.2s;
-        margin-top: 15px;
-        margin-left: 20px;
+        transition: all ease-in-out 0.1s;
         max-height: 0;
         overflow: hidden;
         border-radius: 3px;
+        margin: 0;
       }
     }
   }

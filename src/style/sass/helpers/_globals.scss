@@ -1,11 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&family=Staatliches&family=Tajawal&display=swap"); // place your fonts.
-@import "./vars";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,300;1,400&display=swap');
+@import './vars';
 
 // GLOBAL CLASSES:
 .toggle-FAQ-icon {
   .toggler-viewer {
-    top: -42px !important;
+    top: -59px !important;
   }
+}
+
+img {
+  width: 100%;
 }
 
 // GLOBAL STYLE:
@@ -39,9 +43,4 @@ body {
       text-transform: uppercase !important;
     }
   }
-}
-
-*::selection {
-  background: $c-alt;
-  color: $c-gray;
 }
