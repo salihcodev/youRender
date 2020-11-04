@@ -1,7 +1,4 @@
 // FAQ's section script:
-
-// ANIMATE [FAQ] ACCORDION.
-
 // assign elements.
 var questions = document.getElementsByClassName('question');
 var togglerViewer = document.getElementsByClassName('toggler-viewer');
@@ -26,3 +23,5 @@ for (i = 0; i < questions.length; i++) {
     }
   });
 }
+
+AOS.init();
